@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/animal_detail"
+    style="?android:attr/textAppearanceLarge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+
+    android:textIsSelectable="true"
+    tools:context="com.example.vicente.animales2018.AnimalDetailFragment" >
+
+    <ImageView
+        android:id="@+id/imgAnimal"
+        android:layout_width="305dp"
+        android:layout_height="247dp"
+        android:layout_gravity="center"
+        android:src="@drawable/aguila" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_gravity="center"
+        android:text="TextView" />
+</LinearLayout>
